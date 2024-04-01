@@ -16,14 +16,14 @@ const Login = () => {
     return (
         <div className=" items-center  justify-center pr-20 bg-white max-md:pr-5">
             <div className="flex gap-5 items-center justify-between max-md:flex-col max-md:gap-0">
-                <div className="flex flex-col w-[48%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col w-[48%] max-md:ml-0 max-md:w-full  max-sm:hidden">
                     <img
                         loading="lazy"
                         srcSet={map}
-                        className="grow w-screen h-screen aspect-[0.94] max-md:mt-10 max-md:max-w-full"
+                        className="grow w-screen h-screen aspect-[0.94] max-md:mt-10 max-md:max-w-full "
                     />
                 </div>
-                <div className="flex flex-col ml-5 w-[34%] max-md:ml-0 max-md:w-full">
+                <div className="flex flex-col ml-5 w-[34%] max-md:ml-0 max-md:w-full max-sm:p-10">
                     <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
                         <img
                             loading="lazy"

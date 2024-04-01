@@ -4,7 +4,7 @@ import logo from "../assets/icons/Logo.png"
 const footer = () => {
     return (
         <div className="  flex flex-col mt-28 w-full max-md:mt-10 max-md:max-w-full items-center">
-            <div className=" container flex gap-5 justify-between items-start px-5 text-sm font-medium tracking-normal text-slate-600 max-md:flex-wrap max-md:max-w-full ">
+            <div className=" container grid grid-cols-5 lg:grid-cols-5 max-sm:grid-cols-1 md:grid-cols-3 gap-5 justify-between items-start px-5 text-sm font-medium tracking-normal text-slate-600 max-md:flex-wrap max-md:max-w-full ">
                 <img
                     loading="lazy"
                     srcSet={logo} alt='logo'
@@ -43,9 +43,9 @@ const footer = () => {
                 </div>
             </div>
             <div className="flex gap-5 px-5 mt-5 w-full max-md:flex-wrap max-md:mt-10 max-md:max-w-full border-t-2 pb-6">
-                <div className="flex-auto text-xl font-medium tracking-normal text-slate-600 mt-8">
+                <h1 className="flex-auto text-md font-medium tracking-normal text-slate-600 mt-8">
                     2024Uhub.All rights reserved
-                </div>
+                </h1>
                 <div className="flex flex-1 gap-10  items-end justify-end">
                     <img
                         loading="lazy"

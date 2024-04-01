@@ -7,7 +7,7 @@ const hero = () => {
     return (
         <div className='  items-center justify-center flex mt-16'>
             <div className=" container px-14 py-16 rounded-md border border-violet-200 border-solid bg-slate-50 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-                <div className="flex justify-between items-center max-md:flex-col max-md:gap-0">
+                <div className=" lg:flex justify-between items-center max-md:flex-col">
                     <div className="flex flex-col max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col grow mt-1.5 max-md:mt-10 max-md:max-w-full">
                             <div className="text-4xl font-bold text-black leading-[53px] max-md:max-w-full">

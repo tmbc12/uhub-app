@@ -11,7 +11,7 @@ const latesttrend = () => {
             <div className=' container '>
                 <h1 className=' font-bold text-3xl'>The Latest Trends</h1>
                 <div className=' flex  items-center justify-center mt-12'>
-                    <div className=" grid grid-cols-3 grid-rows-2 gap-8">
+                    <div className=" grid grid-cols-3 grid-rows-2 gap-8 lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1">
                         <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
                             <img
                                 loading="lazy" 

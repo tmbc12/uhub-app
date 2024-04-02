@@ -33,7 +33,9 @@ const Tab = () => {
                     isActive={selectedTab === "team"}
                     onClick={() => setSelectedTab("team")}
                 >
-                    Send a Shipment
+                    <a href="/shipment">
+                        Send a Shipment
+                    </a>
                 </TabSelector>
 
             </nav>

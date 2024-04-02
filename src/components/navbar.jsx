@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 const navigation = [
     { name: 'Home', href: '#', current: true },
-    { name: 'Send Shipment', href: '#', current: false },
+    { name: 'Send Shipment', href: '/shipment', current: false },
     { name: 'Contact Us', href: '#', current: false },
     { name: 'Log In', href: '/login', current: false },
 ]
@@ -35,14 +35,16 @@ export default function Example() {
                                     )}
                                 </Disclosure.Button>
                             </div>
-                            
+
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
-                                    <img
-                                        className="h-8 w-auto"
-                                        src={logo}
-                                        alt="Your Company"
-                                    />
+                                    <a href="/">
+                                        <img
+                                            className="h-8 w-auto"
+                                            src={logo}
+                                            alt="Your Company"
+                                        />
+                                    </a>
                                 </div>
 
                             </div>

@@ -4,7 +4,7 @@ import logo from "../assets/icons/Logo.png"
 const footer = () => {
     return (
         <div className="  flex flex-col mt-28 w-full max-md:mt-10 max-md:max-w-full items-center">
-            <div className=" container grid grid-cols-5 lg:grid-cols-5 max-sm:grid-cols-1 md:grid-cols-3 gap-5 justify-between items-start px-5 text-sm font-medium tracking-normal text-slate-600 max-md:flex-wrap max-md:max-w-full ">
+            <div className=" container grid grid-cols-5 lg:grid-cols-5 max-sm:grid-cols-1 md:grid-cols-3 sm:grid-cols-3 gap-5 justify-between items-start px-5 text-sm font-medium tracking-normal text-slate-600 max-md:flex-wrap max-md:max-w-full ">
                 <img
                     loading="lazy"
                     srcSet={logo} alt='logo'

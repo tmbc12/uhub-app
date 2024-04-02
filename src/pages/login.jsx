@@ -38,7 +38,7 @@ const Login = () => {
                         </h1>
                         <h1 className="mt-3.5 text-base text-amber-500 max-md:max-w-full">
                             <span className="">You can </span>
-                            <a href='#' className="font-medium text-amber-500 cursor-pointer">
+                            <a href='/register' className="font-medium text-amber-500 cursor-pointer">
                                 Register here !
                             </a>
                         </h1>

@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Home', href: '#', current: true },
     { name: 'Send Shipment', href: '#', current: false },
     { name: 'Contact Us', href: '#', current: false },
-    { name: 'Log In', href: '#', current: false },
+    { name: 'Log In', href: '/login', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Example() {
     return (
-        <Disclosure as="nav" className=" bg-white">
+        <Disclosure as="nav" className=" bg-white mt-3">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -51,7 +51,7 @@ export default function Example() {
 
                                 {/* Profile dropdown */}
                                 <div className="hidden sm:ml-6 sm:block">
-                                    <div className="flex space-x-4 items-center justify-center font-semibold">
+                                    <div className="flex space-x-10 items-center justify-center font-semibold">
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}

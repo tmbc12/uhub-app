@@ -55,8 +55,8 @@ const hero = () => {
                             <Tab />
                         </div>
                     </div>
-                    <div className=" w-full h-full max-md:ml-0 max-md:w-full items-end justify-end self-end xl:flex md:hidden lg:hidden max-sm:hidden sm:hidden">
-                        <img src={map} alt="" className=' ' />
+                    <div className=" w-full h-full max-md:ml-0 max-md:w-full  self-end xl:flex md:hidden lg:hidden max-sm:hidden sm:hidden">
+                        <img src={map} alt="" className=' w-[1000px] h-[1000px]' />
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Tab = () => {
     const tabWidthPercent = `${tabWidth}%`;
     return (
         <>
-            <nav className="flex border-b border-gray-300 bg-white shadow-2xl rounded-t-lg ">
+            <nav className="flex border-b border-gray-300 bg-white shadow-2xl rounded-t-lg max-sm:w-[350px] ">
                 <TabSelector
                     width={tabWidthPercent}
                     isActive={selectedTab === "account"}
@@ -47,7 +47,7 @@ const Tab = () => {
                     transition: "left 0.2s"
                 }}
             /> */}
-            <div className="p-4 bg-white rounded-e-xl rounded-es-lg shadow-2xl lg:w-[1000px] md:w-[700px]">
+            <div className="p-4 bg-white rounded-e-xl rounded-es-lg shadow-2xl lg:w-[1000px] md:w-[700px] max-sm:w-[350px]">
                 <TabPanel hidden={selectedTab !== "account"}>
                     <div className="flex gap-5 py-6 pr-20 pl-9 text-base tracking-normal w-full bg-white rounded-e-lg max-md:flex-wrap max-md:px-5 max-md:max-w-full">
                         <input className="flex-auto my-auto text-stone-300 p-2 outline-none border-b-[1px]" type="text" placeholder='Type your tracking number' />

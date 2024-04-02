@@ -6,7 +6,7 @@ const hero2 = () => {
         <div className=' flex items-center justify-center max-sm:-mt-5'>
             <div className=" container p-20 bg-white max-md:px-5">
                 <div className=" absolute -ml-20 px-12 py-7 mt-8 max-w-full bg-white rounded-lg border border-amber-500 border-solid 
-                shadow-lg w-[430px] max-md:px-5 md:hidden lg:block max-sm:hidden">
+                shadow-lg w-[430px] max-md:px-5 md:hidden lg:block max-sm:hidden sm:hidden">
                     <div className="flex gap-5 max-md:flex-col max-md:gap-0 ">
                         <div className="flex flex-col max-md:ml-0 max-md:w-full">
                             <img
@@ -38,7 +38,7 @@ const hero2 = () => {
                             />
                         </div>
                         <div className="flex flex-col lg:w-[42%] self-stretch my-auto text-black md:mt-10 max-md:max-w-full">
-                            <div className="text-4xl font-bold leading-10 max-md:max-w-full">
+                            <div className="text-4xl font-bold leading-10 max-md:max-w-full sm:mt-5">
                                 Innovative Solutions for the Modern Business
                             </div>
                             <div className="mt-10 text-xl leading-7 max-md:max-w-full">
@@ -52,7 +52,7 @@ const hero2 = () => {
                             </button>
                         </div>
                     </div>
-                    <div className=' absolute mt-[500px] md:hidden lg:block max-sm:hidden'>
+                    <div className=' absolute mt-[500px] md:hidden lg:block max-sm:hidden sm:hidden'>
                         <div className=" absolute ml-80 -mt-8 flex z-10 justify-center items-center self-center px-4 rounded-full border-2 border-white border-solid bg-indigo-950 h-[60px] stroke-[2px] w-[60px] max-md:mt-10">
                             <img
                                 loading="lazy"

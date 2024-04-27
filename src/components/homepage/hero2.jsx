@@ -47,7 +47,7 @@ const hero2 = () => {
                                 advanced analytics to cutting-edge technology, we empower your
                                 business with the tools it needs to thrive in the digital age.
                             </div>
-                            <button className="justify-center self-start px-9 py-3.5 mt-8 font-semibold text-lg tracking-normal bg-amber-500 rounded-lg text-indigo-950 max-md:px-5">
+                            <button className="justify-center self-start px-9 py-3.5 mt-8 font-semibold text-lg tracking-normal bg-amber-500 rounded-lg text-white transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                                 See more
                             </button>
                         </div>

@@ -63,7 +63,7 @@ export default function Example() {
                                                 {item.name}
                                             </a>
                                         ))}
-                                        <div className=' flex gap-1 cursor-pointer bg-amber-500 rounded-lg text-indigo-950 font-medium max-md:px-5 px-6 py-3 items-center'>
+                                        <div className=" flex items-center gap-3 bg-[#F8A11E] hover:bg-[#F8A11E] text-white font-bold py-3 px-4 rounded transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110">
                                             <button className="justify-center self-stretch  tracking-normal">
                                                 Track order
                                             </button>

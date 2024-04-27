@@ -12,7 +12,7 @@ const latesttrend = () => {
                 <h1 className=' font-bold text-3xl'>The Latest Trends</h1>
                 <div className=' flex  items-center justify-center mt-12'>
                     <div className=" grid grid-cols-3 grid-rows-2 gap-8 lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1">
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand1} alt='trand1'
@@ -29,7 +29,7 @@ const latesttrend = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand2} alt='trand2'
@@ -46,7 +46,7 @@ const latesttrend = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand3} alt='trand3'
@@ -63,7 +63,7 @@ const latesttrend = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand4} alt='trand4'
@@ -80,7 +80,7 @@ const latesttrend = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand5} alt='trand1'
@@ -97,7 +97,7 @@ const latesttrend = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer">
+                        <div className="flex flex-col pb-4 bg-white rounded-lg border border-violet-300 border-solid max-w-[375px] cursor-pointer transform transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 max-md:px-5">
                             <img
                                 loading="lazy" 
                                 srcSet={trand6} alt='trand1'

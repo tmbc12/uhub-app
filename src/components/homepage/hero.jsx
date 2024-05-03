@@ -1,5 +1,5 @@
 import React from "react";
-import map from "../../assets/img/Frame 22.png";
+import map from "../../assets/img/Group 3720.svg";
 import Tab from "./tab/tab";
 import Typewriter from "typewriter-effect";
 const hero = () => {

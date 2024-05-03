@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fade-up {
+  animation: fade-up 0.8s ease-in-out forwards;
+}
+
+.fadeup {
+  animation: fadeup 0.8s ease-in-out ;
+}
+
+.fadeup {
+  animation: fadeup 0.8s 0.7s  backwards ;
+}
+
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translate(60px) scale(1.0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px) scale(1);
+  }
+}
+
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translate(-60px) scale(1.0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px) scale(1);
+  }
+}
+
+.fadedown {
+  animation: fade-down 0.8s 0.7s  backwards ;
+}
+
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px) scale(1.0);
+  }
+
+  100% {
+    opacity: 1;
+    transform:translateY(0px) scale(1.0);
+  }
+}

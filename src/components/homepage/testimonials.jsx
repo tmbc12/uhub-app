@@ -6,10 +6,10 @@ const test = () => {
     return (
         <div className=' mt-16 flex items-center justify-center'>
             <div className=" container flex flex-col items-center pt-12 pr-20 pb-4 pl-9 bg-white max-w-[860px] max-md:px-5">
-                <h1 className="text-5xl font-bold text-indigo-950 max-md:text-4xl">
+                <h1 className="text-5xl font-bold text-indigo-950 max-md:text-4xl fadedown">
                     Testimonials
                 </h1>
-                <h1 className="mt-9 text-xl text-center text-zinc-500">
+                <h1 className="mt-9 text-xl text-center text-zinc-500 fadedown">
                     See what our cleints have to say about us
                 </h1>
                 <h1 className="self-start mt-16 text-2xl text-center text-zinc-500 max-md:mt-10 max-md:max-w-full">
@@ -27,11 +27,7 @@ const test = () => {
                 </h1>
                 <div className="flex gap-5 items-center mt-10">
                     <div className="flex overflow-hidden relative flex-col justify-center items-center self-stretch aspect-square w-[60px]">
-                        {/* <img
-                            loading="lazy"
-                            srcSet="..."
-                            className="object-cover absolute inset-0 size-full"
-                        /> */}
+                        
                         <img
                             loading="lazy"
                             srcSet={Test1} alt='Test1'
@@ -39,11 +35,7 @@ const test = () => {
                         />
                     </div>
                     <div className="flex overflow-hidden relative flex-col justify-center items-center self-stretch my-auto aspect-square w-[60px]">
-                        {/* <img
-                            loading="lazy"
-                            srcSet="..."
-                            className="object-cover absolute inset-0 size-full"
-                        /> */}
+                        
                         <img
                             loading="lazy"
                             srcSet={Test2} alt='test2'
@@ -51,11 +43,7 @@ const test = () => {
                         />
                     </div>
                     <div className="flex overflow-hidden relative flex-col justify-center items-center self-stretch my-auto aspect-square w-[60px]">
-                        {/* <img
-                            loading="lazy"
-                            srcSet="..."
-                            className="object-cover absolute inset-0 size-full"
-                        /> */}
+                        
                         <img
                             loading="lazy"
                             srcSet={Test3} alt='test3'

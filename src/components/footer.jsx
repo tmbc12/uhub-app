@@ -96,22 +96,22 @@ const footer = () => {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/afcbb7129aa87f6ebeb2c1b429155d13657f4282853b667d7be345f689bd5142?"
-            className="shrink-0 w-6 aspect-square cursor-pointer"
+            className="shrink-0 w-6 aspect-square cursor-pointer animate-bounce "
           />
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/5791bcb95d4cf5f1f31798e917aa4f2296b142461d1e59d9e9f29476d593d328?"
-            className="shrink-0 w-6 aspect-square cursor-pointer"
+            className="shrink-0 w-6 aspect-square cursor-pointer animate-bounce "
           />
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/034b94bc719af695da53066ecfbc2a3fccce315229e8d0d8cd2ef82e0b58e3bf?"
-            className="shrink-0 w-6 aspect-square cursor-pointer"
+            className="shrink-0 w-6 aspect-square cursor-pointer animate-bounce "
           />
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/c545addada073f869ed660f4a4bfbac83f16546dc38fdf8b0987de551a695477?"
-            className="shrink-0 w-6 aspect-square cursor-pointer"
+            className="shrink-0 w-6 aspect-square cursor-pointer animate-bounce "
           />
         </div>
       </div>

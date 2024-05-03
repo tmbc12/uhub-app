@@ -11,7 +11,7 @@ const banner = () => {
                     <h1 className="mt-12 text-2xl text-center text-white max-md:mt-10 max-md:max-w-full">
                         Sign up now or log in to your UHub Logistics account.{" "}
                     </h1>
-                    <div className="flex items-center justify-between gap-5 px-7 py-5 mt-8 bg-white rounded-md max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+                    <div className="flex items-center justify-between gap-5 px-6 py-2 mt-8 bg-white rounded-md max-md:flex-wrap max-md:px-5 max-md:max-w-full">
                         <input type='text' placeholder='Enter your email address' className=' p-2 w-full outline-none max-sm:w-auto' />
                         <button className="justify-center px-8 py-3 text-base tracking-normal whitespace-nowrap bg-amber-500 rounded-lg text-indigo-950 max-md:px-5">
                             Submit

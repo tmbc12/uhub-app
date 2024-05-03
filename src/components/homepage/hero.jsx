@@ -14,18 +14,9 @@ const hero = () => {
                   <div className="flex flex-col w-[72%] mt-16 max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col grow mt-3 max-md:mt-10 max-md:max-w-full">
                       <h1 className="text-5xl font-bold tracking-tighter leading-[57px] text-neutral-800 max-md:max-w-full max-md:text-4xl max-md:leading-[51px]">
-                        Shipping your goods as 
+                        Shipping your goods as seemless as possible
                       </h1>
-                      <Typewriter 
-                        options={{
-                          loop: true,
-                          autoStart: true,
-                          strings: [
-                            "seemless as possible",
-                            
-                          ],
-                        }}
-                      />
+                      
                       <h3 className="mt-5 text-2xl leading-7 text-black max-md:max-w-full">
                         A great platform to streamline your shipping operations
                         or an individual sending a package, UHub Logistics has

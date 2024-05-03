@@ -63,7 +63,7 @@ const hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="ml-5 w-[30%] max-md:ml-0 max-md:w-full">
+                    <div className="ml-5 w-[30%] max-md:ml-0 max-md:w-full max-sm:w-[60%] max-sm:ml-32">
                         <img
                             loading="lazy"
                             srcSet={img}
